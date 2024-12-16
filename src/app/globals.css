@@ -249,7 +249,7 @@ nav .content .links li {
 
 .hero .main-text p {
   color: white;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 #btn {
@@ -261,7 +261,7 @@ nav .content .links li {
   letter-spacing: 1px;
   border: 2px solid #388b6f;
   border-radius: 5px;
-  margin-top: 10px;
+  margin-top: 20px;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -269,6 +269,15 @@ nav .content .links li {
 #btn:hover {
   background-color: #388b6f;
   color: white;
+}
+
+@media (max-width:920px) {
+  .hero .main-text{
+    padding: 100px 10% 10px;
+  }
+  .main-text h1{
+    font-size: 33px;
+  }
 }
 
 /* Hero Section End */
