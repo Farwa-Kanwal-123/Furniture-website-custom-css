@@ -1,8 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
-import logo from '@/../../public/images/logo.png'
-import { FaFacebookF, FaInstagram, FaPinterestP, FaTwitter, FaYoutube } from 'react-icons/fa'
+import Footer from '@/components/Footer'
+
 
 const Contact = () => {
     return (
@@ -31,35 +30,10 @@ const Contact = () => {
                     </form>
                 </div>
             </section>
+           {/* footer */}
+           <Footer/>
 
-
-            {/* Footer Section  */}
-            <footer id="footer">
-                <div className="footer-content">
-                    <div className="logo">
-                        <Image src={logo} alt="logo" className='img' />
-                    </div>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et labore suscipit nisi non, laudantium delectus?
-                        <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, molestias!
-                    </p>
-                    <div className="social-links">
-                        <FaTwitter className='icon' />
-                        <FaFacebookF className='icon' />
-                        <FaInstagram className='icon' />
-                        <FaYoutube className='icon' />
-                        <FaPinterestP className='icon' />
-                    </div>
-                </div>
-                <hr />
-                <div className="footer-bottom-content">
-                    <p>Designed By <Link href="#" className='link'>SA Coding</Link></p>
-                    <div className="copyright">
-                        <p>&copy;Copyright <strong>SA Coding</strong>.All Rights Reserved</p>
-                    </div>
-                </div>
-            </footer>
-            {/* Footer End  */}
+           
         </section>
     )
 }

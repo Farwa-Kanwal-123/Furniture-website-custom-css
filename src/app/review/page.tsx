@@ -15,7 +15,7 @@ const Review = () => {
             <div className="review-content">
                 <div className="box">
                     <div className="image">
-                        <Image src={pic1} alt="user pics" className="img"/>
+                        <Image src={pic1} alt="user-pics" className="img"/>
                     </div>
                     <h3>Elon Musk</h3>
                     <div className="star">
@@ -63,4 +63,4 @@ const Review = () => {
     )
 }
 
-export default Review
+export default Review;
