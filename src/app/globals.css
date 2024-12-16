@@ -601,7 +601,7 @@ nav .content .links li {
 
 /* Review Section Start */
 .review {
-  padding: 120px 8%;
+  padding: 70px 8% 120px;
   background: white;
 }
 
@@ -635,7 +635,7 @@ nav .content .links li {
 
 @media (max-width:920px) {
   .review{
-    padding:60px 8%;
+    padding:50px 8%;
   }
   .review-content {
     grid-template-columns: 1fr;
